@@ -27,7 +27,7 @@ ThermoLearn/
 
 ## 📌 Main Components
 
-### [`torch_neural_new.py`](.ThermoLearn/Standard/JANAF/thermo_net/torch_neural_new.py)
+### [`torch_neural_new.py`](./Standard/JANAF/thermo_net/torch_neural_new.py)
 > 🧠 **Core script** implementing:
 - A **standard feedforward neural network** for property regression.
 - A **PINN architecture** where thermodynamic constraints are built into the loss function.
