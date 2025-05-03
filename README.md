@@ -1,4 +1,4 @@
-# 🔥 ThermoLearn — Thermodynamic Property Prediction via Neural Networks
+#  ThermoLearn — Thermodynamic Property Prediction via Neural Networks
 
 This repository provides PyTorch-based implementations of both traditional neural networks and **Physics-Informed Neural Networks (PINNs)** for thermodynamic property regression. It utilizes the **JANAF** thermodynamic dataset and applies hyperparameter optimization to train models that obey physical constraints like:
 
