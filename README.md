@@ -3,7 +3,7 @@
 This repository provides PyTorch-based implementations of both traditional neural networks and **Physics-Informed Neural Networks (PINNs)** for thermodynamic property regression. It utilizes the **JANAF** thermodynamic dataset and **PhononDb** datasets. The neural network constrained by the Gibbs free energy relation (G = H - TS), ensuring thermodynamic consistency. Benchmarked the model against traditional approaches, demonstrating superior performance, particularly in out-of-distribution (OOD) scenarios. [Please follow this link to the ChemRxiv paper for more details](https://chemrxiv.org/engage/chemrxiv/article-details/66b8a0fcc9c6a5c07ae4a901)
 
 ---
-
+![ThermoLearn Architecture](Scheme.png)
 ## 📁 Repository Structure
 There are two sub-folders in the main repository, Standard and OOD/JANAF. 
 The standard contains both the NIST-JANAF and PhononDb data. PINN and the normal neural network are hyper-optimized using conventional validation protocols like train test split and cross-validation. 
