@@ -1,14 +1,14 @@
 #  ThermoLearn — Thermodynamic Property Prediction via Neural Networks
 
-This repository provides PyTorch-based implementations of both traditional neural networks and **Physics-Informed Neural Networks (PINNs)** for thermodynamic property regression. It utilizes the **JANAF** thermodynamic dataset and applies hyperparameter optimization to train models that obey physical constraints like:
-
-\[
-G = H - T S
-\]
+This repository provides PyTorch-based implementations of both traditional neural networks and **Physics-Informed Neural Networks (PINNs)** for thermodynamic property regression. It utilizes the **JANAF** thermodynamic dataset and **PhononDb** datasets. The neural network constrained by the Gibbs free energy relation (G = H - TS), ensuring thermodynamic consistency. Benchmarked the model against traditional approaches, demonstrating superior performance, particularly in out-of-distribution (OOD) scenarios. [Please follow this link to the ChemRxiv paper for more details](https://chemrxiv.org/engage/chemrxiv/article-details/66b8a0fcc9c6a5c07ae4a901)
 
 ---
 
 ## 📁 Repository Structure
+There are two sub-folders in the main repository, Standard and OOD/JANAF. 
+The standard contains both the NIST-JANAF and PhononDb data. PINN and the normal neural network are hyper-optimized using conventional validation protocols like train test split and cross-validation. 
+JANAF/OOD contains only the experimental NIST data, in this case we train and test on separate clusters the so-called out-of-distribution(OOD) scenario. Refer to the paper for more details.
+The repository contains the code for benchmarking only the PINN and normal NN. Scripts for benchmarking against Megnet, CGCNN and other methods mentioned in the paper should be uploaded soon(maybe in a supporting repository), Same goes for the script required to make the OOD clusters.  
 
 ```
 ThermoLearn/
