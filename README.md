@@ -11,6 +11,7 @@ JANAF/OOD contains only the experimental NIST data, in this case we train and te
 The repository contains the code for benchmarking only the PINN and normal NN. Scripts for benchmarking against Megnet, CGCNN and other methods mentioned in the paper should be uploaded soon(maybe in a supporting repository), Same goes for the script required to make the OOD clusters.  
 
 ```
+Repo Strucutre 
 ThermoLearn/
 ├── Standard/
 │   └── JANAF/
