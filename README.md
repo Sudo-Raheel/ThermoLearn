@@ -1,6 +1,6 @@
 #  ThermoLearn — Thermodynamic Property Prediction via Neural Networks
 
-This repository provides PyTorch-based implementations of both traditional neural networks and **Physics-Informed Neural Networks (PINNs)** for thermodynamic property regression. It utilizes the **JANAF** thermodynamic dataset and **PhononDb** datasets. The neural network constrained by the Gibbs free energy relation (G = H - TS), ensuring thermodynamic consistency. Benchmarked the model against traditional approaches, demonstrating superior performance, particularly in out-of-distribution (OOD) scenarios. [Please follow this link to the ChemRxiv paper for more details](https://chemrxiv.org/engage/chemrxiv/article-details/66b8a0fcc9c6a5c07ae4a901)
+This repository provides PyTorch-based implementations of both traditional neural networks and **Physics-Informed Neural Networks (PINNs)** for thermodynamic property regression. It utilizes the **JANAF** thermodynamic dataset and **PhononDb** datasets. The neural network constrained by the Gibbs free energy relation (G = H - TS), ensuring thermodynamic consistency. Benchmarked the model against traditional approaches, demonstrating superior performance, particularly in out-of-distribution (OOD) scenarios. [Please follow this link to the paper for more details](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-025-01033-0)
 
 ---
 ![ThermoLearn Architecture](Scheme.png)
