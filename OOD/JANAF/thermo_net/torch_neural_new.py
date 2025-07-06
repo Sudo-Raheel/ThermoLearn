@@ -99,6 +99,8 @@ class ANN_thermo1(nn.Module):
 
         # expected using outputs
         # free energy equation
+        # 6.8 factor is mean of energy/entropy the magnitude disparity make's it difficult to learn without this scaling on the JANAF dataset..workfine on Phonondb
+        #TODO  further tests need to be conducted to see if some kind of scaling can be directly used here 
         expected_feng = output_energy/6.8 - (self.Temperature / 1000) * output_entropy
         thermodynamic_loss_feng = self.loss_function(expected_feng, target_feng)
         # entropy
