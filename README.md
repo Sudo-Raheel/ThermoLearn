@@ -36,7 +36,7 @@ ThermoLearn/
 
 ---
 
-### [`hyopt_normal_nn.py`](./hyopt_normal_nn.py)
+### [`hyopt_normal_nn.py`](./Standard/JANAF/hyopt_normal_nn.py)
 > 🔧 Hyperparameter tuning script for the **normal neural network**.
 - Loads models from `torch_neural_new.py`
 - Performs optimization (e.g., learning rate, number of hidden layers)
@@ -44,7 +44,7 @@ ThermoLearn/
 
 ---
 
-### [`hyopt_tln.py`](./hyopt_tln.py)
+### [`hyopt_tln.py`](./Standard/JANAF/hyopt_tln.py)
 > 🔬 Hyperparameter tuning script for the **PINN model**.
 - Loads physics-informed network from `torch_neural_new.py`
 - Optimizes parameters while enforcing thermodynamic consistency
