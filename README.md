@@ -54,8 +54,8 @@ ThermoLearn/
 
 ## 📊 Data Files
 
-- [`normal_average.csv`](./normal_average.csv): Standardized input data used in `hyopt_normal_nn.py`
-- [`tln_scores.csv`](./tln_scores.csv): Output evaluation scores (e.g., MAE, MSE, constraint errors) for the PINN models
+- [`normal_average.csv`](./Standard/JANAF/normal_average.csv): Standardized input data used in `hyopt_normal_nn.py`
+- [`tln_scores.csv`](./Standard/JANAF/tln_scores.csv): Output evaluation scores (e.g., MAE, MSE, constraint errors) for the PINN models
 
 ---
 
